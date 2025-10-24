@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
   <title>Birth Certificate</title>
   <style>
     body {
-      font-family: "Times New Roman", serif;
+      font-family: 'Times New Roman', serif;
       margin: 40px;
       background: #f9f9f9;
     }
@@ -17,7 +16,6 @@
       max-width: 800px;
       margin: auto;
     }
-
     /* Header with left/right logos */
     .header {
       display: flex;
@@ -36,7 +34,6 @@
       text-align: center;
       padding: 0 10px;
     }
-
     h1, h2 {
       text-align: center;
       margin: 0;
@@ -50,7 +47,14 @@
     .info {
       margin-left: 10px;
     }
-
+    .logos {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .logos img {
+      margin: 0 10px;
+      width: 100px;
+    }
     /* Print */
     @media print {
       body { background: #fff; margin: 0; }
@@ -70,7 +74,7 @@
       </div>
       <img class="logo" src="logo2.png" alt="Birth and Death" />
     </div>
-    <hr />
+    <hr>
 
     <div class="section">
       <p><span class="label">District:</span><span class="info">RAJKOT</span></p>
@@ -81,7 +85,7 @@
     <div class="section">
       <p><span class="label">Child Name:</span><span class="info">VISHAKHA</span></p>
       <p><span class="label">Sex:</span><span class="info">FEMALE</span></p>
-      <p><span class="label">Date of Birth:</span><span class="info">SATURDAY, 19 JUNE, 1993</span></p>
+      <p><span class="label">Date of Birth:</span><span class="info">19/06/1993</span></p>
       <p><span class="label">Place of Birth:</span><span class="info">KUMBHANI HOSPITAL, JETPUR</span></p>
     </div>
 
